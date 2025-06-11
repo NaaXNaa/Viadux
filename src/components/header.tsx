@@ -66,14 +66,14 @@ export default function Header() {
         </Link>
         <Link 
           className="block py-3 text-white hover:underline border-b border-gray-700" 
-          href="#"
+          href="/pages/parfume"
           onClick={() => setIsMenuOpen(false)}
         >
           PERFUME
         </Link>
         <Link 
           className="block py-3 text-white hover:underline" 
-          href="#"
+          href="#contact"
           onClick={() => setIsMenuOpen(false)}
         >
           CONTACT
