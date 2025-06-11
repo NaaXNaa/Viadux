@@ -18,7 +18,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-gray-300 text-sm sm:text-base leading-relaxed text-center sm:text-left">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellendus repellat numquam tenetur reiciendis quo incidunt similique odit quis aspernatur?
+              Dapatkan info terbaru tentang parfum edisi terbatas, promo spesial, dan peluncuran produk terbaru langsung ke inbox dan media sosialmu:
             </p>
             <div className="flex justify-center sm:justify-start gap-4">
               <a href="#" className="bg-[#e84118] p-2 rounded-full hover:bg-black hover:text-[#e84118] transition-colors duration-300">
@@ -27,7 +27,7 @@ export default function Footer() {
               <a href="#" className="bg-[#e84118] p-2 rounded-full hover:bg-black hover:text-[#e84118] transition-colors duration-300">
                 <Facebook size={18} className="sm:w-5 sm:h-5" />
               </a>
-              <a href="#" className="bg-[#e84118] p-2 rounded-full hover:bg-black hover:text-[#e84118] transition-colors duration-300">
+              <a href="https://viadux.my.id" className="bg-[#e84118] p-2 rounded-full hover:bg-black hover:text-[#e84118] transition-colors duration-300">
                 <Globe size={18} className="sm:w-5 sm:h-5" />
               </a>
             </div>
@@ -38,7 +38,7 @@ export default function Footer() {
             <h3 className="text-lg sm:text-xl font-bold text-[#e84118] text-center sm:text-left">Quick Links</h3>
             <ul className="space-y-2 sm:space-y-3">
               <li>
-                <a href="#" className="flex items-center gap-3 text-gray-300 hover:text-[#e84118] transition-colors duration-300 justify-center sm:justify-start">
+                <a href="/" className="flex items-center gap-3 text-gray-300 hover:text-[#e84118] transition-colors duration-300 justify-center sm:justify-start">
                   <Home size={16} className="text-[#e84118] sm:w-5 sm:h-5" />
                   <span className="text-sm sm:text-base">Home</span>
                 </a>
@@ -50,7 +50,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="flex items-center gap-3 text-gray-300 hover:text-[#e84118] transition-colors duration-300 justify-center sm:justify-start">
+                <a href="/pages/parfume" className="flex items-center gap-3 text-gray-300 hover:text-[#e84118] transition-colors duration-300 justify-center sm:justify-start">
                   <ShoppingBasket size={16} className="text-[#e84118] sm:w-5 sm:h-5" />
                   <span className="text-sm sm:text-base">Parfume</span>
                 </a>

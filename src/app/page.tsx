@@ -198,7 +198,7 @@ export default function Home() {
             whileHover={{ x: 5 }}
             transition={{ type: "spring", stiffness: 300 }}
           >
-            <Link href="/" className="flex text-white self-start lg:self-center group text-sm sm:text-base">
+            <Link href="/pages/parfume" className="flex text-white self-start lg:self-center group text-sm sm:text-base">
               Lihat semua produk
               <ChevronRight className="ml-1 w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
