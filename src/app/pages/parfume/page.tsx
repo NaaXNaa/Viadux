@@ -91,7 +91,7 @@ const rotateVariants = {
 export default function Component() {
   return (
     <motion.div
-      className="min-h-screen bg-gradient-to-br"
+      className="min-h-screen bg-black bg-gradient-to-br"
       initial="hidden"
       animate="visible"
       variants={fadeInVariants}

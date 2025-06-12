@@ -122,7 +122,7 @@ export default function Home() {
 
       {/* Vision Section */}
       <motion.section
-        className="relative"
+        className="relative bg-black"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
@@ -155,13 +155,13 @@ export default function Home() {
               variants={slideInFromRight}
             >
               <motion.h2
-                className="text-lg sm:text-xl md:text-2xl font-medium"
+                className="text-lg sm:text-xl md:text-2xl font-medium text-white"
                 variants={itemVariants}
               >
                 Apa itu parfum <span className="text-[#e84118]">VIADUX?</span>
               </motion.h2>
               <motion.p
-                className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium leading-snug sm:leading-relaxed"
+                className="text-xl text-white sm:text-2xl md:text-3xl lg:text-4xl font-medium leading-snug sm:leading-relaxed"
                 variants={itemVariants}
               >
                 Menyalakan Kepercayaan Diri, Meninggikan Kesan yang Abadi.
@@ -206,14 +206,14 @@ export default function Home() {
               variants={slideInFromLeft}
             >
               <motion.h2
-                className="text-lg sm:text-xl md:text-2xl font-medium"
+                className="text-lg text-white sm:text-xl md:text-2xl font-medium"
                 variants={itemVariants}
               >
                 Parfum keunggulan{" "}
                 <span className="text-[#e84118]">VIADUX</span>
               </motion.h2>
               <motion.p
-                className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium leading-snug sm:leading-relaxed"
+                className="text-xl text-white sm:text-2xl md:text-3xl lg:text-4xl font-medium leading-snug sm:leading-relaxed"
                 variants={itemVariants}
               >
                 True Brotherhood
@@ -257,7 +257,7 @@ export default function Home() {
               variants={slideInFromRight}
             >
               <motion.p
-                className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium leading-snug sm:leading-relaxed"
+                className="text-xl text-white sm:text-2xl md:text-3xl lg:text-4xl font-medium leading-snug sm:leading-relaxed"
                 variants={itemVariants}
               >
                 Memiliki sertifikasi dari Prancis
@@ -276,6 +276,7 @@ export default function Home() {
             </motion.div>
           </motion.div>
         </div>
+
 
         {/* CTA Banner */}
         <motion.div

@@ -166,6 +166,7 @@ export default function Home() {
       </motion.section>
 
       {/* Product Section */}
+      <section className="bg-black">
       <motion.section 
         id="products" 
         className="py-12 md:py-16 px-4 sm:px-6 lg:px-8"
@@ -179,7 +180,7 @@ export default function Home() {
           variants={containerVariants}
         >
           <motion.div className="lg:max-w-2xl" variants={slideInVariants}>
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-3 md:mb-4">
+            <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-3 md:mb-4">
               Kebutuhan Esensial untuk Meningkatkan Kepercayaan Dirimu
             </h1>
             <p className="text-zinc-400 text-base sm:text-lg md:text-xl">
@@ -242,6 +243,7 @@ export default function Home() {
           ))}
         </motion.div>
       </motion.section>
+      </section>
 
       {/* Showcase Section */}
       <section className="bg-[#0f0f0f] h-[60vh] sm:h-[70vh] md:h-[80vh] grid grid-cols-1 md:grid-cols-2 overflow-hidden relative">
