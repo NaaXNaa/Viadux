@@ -287,7 +287,7 @@ export default function Home() {
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
           <motion.p
-            className="text-sm sm:text-base md:text-lg"
+            className="text-sm text-white sm:text-base md:text-lg"
             variants={itemVariants}
           >
             Bergabung dengan BrotherhoodViadux dan dapatkan potongan 10% untuk
